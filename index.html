@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Market Supply</title>
+	<!-- Google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,700i" rel="stylesheet">
+	<!-- Bootstrap v.4.0 Grid -->
+	<link rel="stylesheet" href="css/bootstrap-grid.css">
+	<!-- Normalize CSS -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<!-- Fontello Icons -->
+	<link rel="stylesheet" href="css/fontello.css">
+	<!-- Slick slider -->
+	<link rel="stylesheet" href="access/slick-1.8.1/slick/slick.css">
+	<link rel="stylesheet" href="access/slick-1.8.1/slick/slick-theme.css">
+	<!-- Main style -->
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 flex align-items-c">
+					<div class="logo">
+						<img src="img/logotype.png" alt="logotype">
+					</div>
+				</div>
+				<div class="col-lg-9">
+					<div class="row j-content-end">
+						<div class="col-lg-10">
+							<div class="top-menu j-content-end">
+								<ul class="top-menu__list">
+									<li class="top-menu__item">
+										<a class="top-menu__link" href="#">My account</a>
+									</li>
+									<li class="top-menu__item">
+										<a class="top-menu__link" href="#">Wishlist</a>
+									</li>
+									<li class="top-menu__item">
+										<a class="top-menu__link" href="#">My cart</a>
+									</li>
+									<li class="top-menu__item">
+										<a class="top-menu__link" href="#">Checkout</a>
+									</li>
+									<li class="top-menu__item">
+										<a class="top-menu__link" href="#">Login</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-10 flex mt">
+							<form class="search">
+								<input type="text" class="search-input" placeholder="Search here" />
+								<button type="submit" class="search-icon icon-search"></button>
+							</form>
+							<div class="basket i-flex">
+								<span class="basket__icon icon-basket"></span>
+								<div class="basket__price">
+									<p class="basket__text">Total</p>
+									<span class="basket__currency">$600.00</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>		
+	</header>
+	<section class="navigation">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<nav class="navigation-bar">
+						<ul class="navigation-bar__list">
+							<li class="navigation-bar__item">
+								<i class="navigation-bar__icon icon-play-circled2"></i>
+								<a href="#" class="navigation-bar__link">Categories</a>
+							</li>
+							<li class="navigation-bar__item">
+								<a href="#" class="navigation-bar__link">Clothing</a>
+							</li>
+							<li class="navigation-bar__item">
+								<a href="#" class="navigation-bar__link">Electronic Hot</a>
+							</li>
+							<li class="navigation-bar__item">
+								<a href="#" class="navigation-bar__link">health & Beauty</a>
+							</li>
+							<li class="navigation-bar__item">
+								<a href="#" class="navigation-bar__link">Watches</a>
+							</li>
+							<li class="navigation-bar__item">
+								<a href="#" class="navigation-bar__link">Jewellery</a>
+							</li>
+							<li class="navigation-bar__item">
+								<a href="#" class="navigation-bar__link">Shoes</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="main">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3">
+					<nav class="main-menu">
+						<ul class="main-menu__list">
+							<li class="main-menu__item">
+								<i class="main-menu__icon icon-play-circled2"></i>
+								<a href="#" class="main-menu__link">Clothing</a>
+							</li>
+							<li class="main-menu__item"><!-- TO DO СДЕЛАТЬ ИКОНКИ -->
+								<i class="main-menu__icon icon-play-circled2"></i>
+								<a href="#" class="main-menu__link">Electronics</a>
+							</li>
+							<li class="main-menu__item">
+								<i class="main-menu__icon icon-play-circled2"></i>
+								<a href="#" class="main-menu__link">Shoes</a>
+							</li>
+							<li class="main-menu__item">
+								<i class="main-menu__icon icon-play-circled2"></i>
+								<a href="#" class="main-menu__link">Watches</a>
+							</li>
+							<li class="main-menu__item">
+								<i class="main-menu__icon icon-play-circled2"></i>
+								<a href="#" class="main-menu__link">Jewellery</a>
+							</li>
+							<li class="main-menu__item">
+								<i class="main-menu__icon icon-play-circled2"></i>
+								<a href="#" class="main-menu__link">Health and Beauty</a>
+							</li>
+							<li class="main-menu__item">
+								<i class="main-menu__icon icon-play-circled2"></i>
+								<a href="#" class="main-menu__link">Kids and Babies</a>
+							</li>
+							<li class="main-menu__item">
+								<i class="main-menu__icon icon-play-circled2"></i>
+								<a href="#" class="main-menu__link">Sports</a>
+							</li>
+							<li class="main-menu__item">
+								<i class="main-menu__icon icon-play-circled2"></i>
+								<a href="#" class="main-menu__link">Home and Garden</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-lg-9">
+					<div class="main-banner">
+						<img src="img/main-banner.png" alt="Main banner">
+						<button href="#" class="main-banner__button">Shop now</button>
+						<div class="row">
+							<div class="main-banner__wrap">
+								<div class="col-4">									
+									<span class="main-banner__span">money back</span>
+									<p class="main-banner__text">30 Days Money Back Guarantee</p>
+								</div>
+								<div class="col-4">									
+									<span class="main-banner__span">free shipping</span>
+									<p class="main-banner__text">Shipping on orders over $99</p>
+								</div>
+								<div class="col-4">									
+									<span class="main-banner__span">Special Sale</span>
+									<p class="main-banner__text">Extra $5 off on all items </p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<main class="main-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="main-section__wrap">
+						<h2>Hot deals</h2>
+						<hr>
+						<div class="hot-deals">
+							<div>
+								<img src="img/hot-deals_1.jpg" alt="hot-deals_1">
+								<p class="hot-deals__text">Lorem ipsum dolor</p>
+								<div class="hot-deals__price">
+									<span class="hot-deals__price--old"><s>$100</s></span>
+									<span class="hot-deals__price--new">$90</span>
+								</div>
+								<div class="hot-deals__icon">
+									<i class="hot-deals__icon--full icon-star-empty"></i>
+									<i class="hot-deals__icon--full icon-star-empty"></i>
+									<i class="hot-deals__icon--full icon-star-empty"></i>
+									<i class="hot-deals__icon--full icon-star-empty"></i>
+									<i class="hot-deals__icon--full icon-star-empty"></i>
+								</div>
+							</div>
+							<div>
+								<img src="img/hot-deals_2.jpg" alt="hot-deals_2">
+								<p class="hot-deals__text">Lorem ipsum dolor</p>
+								<div class="hot-deals__price">
+									<span class="hot-deals__price--old"><s>$200</s></span>
+									<span class="hot-deals__price--new">$170</span>
+								</div>
+								<div class="hot-deals__icon">
+									<i class="hot-deals__icon--full icon-star-empty"></i>
+									<i class="hot-deals__icon--full icon-star-empty"></i>
+									<i class="hot-deals__icon--full icon-star-empty"></i>
+									<i class="hot-deals__icon--full icon-star-empty"></i>
+									<i class="hot-deals__icon--full icon-star-empty"></i>
+								</div>
+							</div>
+							<div>
+								<img src="img/hot-deals_3.jpg" alt="hot-deals_3">
+								<p class="hot-deals__text">Lorem ipsum dolor</p>
+								<div class="hot-deals__price">
+									<span class="hot-deals__price--old"><s>$150</s></span>
+									<span class="hot-deals__price--new">$75</span>
+								</div>
+								<div class="hot-deals__icon">
+									<i class="hot-deals__icon--full icon-star-empty"></i>
+									<i class="hot-deals__icon--full icon-star-empty"></i>
+									<i class="hot-deals__icon--full icon-star-empty"></i>
+									<i class="hot-deals__icon--full icon-star-empty"></i>
+									<i class="hot-deals__icon--full icon-star-empty"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-9">
+					<div class="main-section__wrap">
+						<h2>New Products</h2>
+						<hr>
+						<div class="new-products">
+							<div>
+								<img src="img/new-products_1.png" alt="new-products_1">
+								<p class="new-products__text">Lorem ipsum dolor</p>
+								<div class="new-products__price">
+									<span class="new-products__price--old"><s>$100</s></span>
+									<span class="new-products__price--new">$90</span>
+								</div>
+								<div class="new-products__icon">
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+								</div>
+							</div>
+							<div>
+								<img src="img/new-products_2.png" alt="new-products_2">
+								<p class="new-products__text">Lorem ipsum dolor</p>
+								<div class="new-products__price">
+									<span class="new-products__price--old"><s>$100</s></span>
+									<span class="new-products__price--new">$90</span>
+								</div>
+								<div class="new-products__icon">
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+								</div>
+							</div>
+							<div>
+								<img src="img/new-products_3.png" alt="new-products_3">
+								<p class="new-products__text">Lorem ipsum dolor</p>
+								<div class="new-products__price">
+									<span class="new-products__price--old"><s>$100</s></span>
+									<span class="new-products__price--new">$90</span>
+								</div>
+								<div class="new-products__icon">
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+								</div>
+							</div>
+							<div>
+								<img src="img/new-products_4.png" alt="new-products_4">
+								<p class="new-products__text">Lorem ipsum dolor</p>
+								<div class="new-products__price">
+									<span class="new-products__price--old"><s>$100</s></span>
+									<span class="new-products__price--new">$90</span>
+								</div>
+								<div class="new-products__icon">
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+								</div>
+							</div>
+							<div>
+								<img src="img/new-products_1.png" alt="new-products_1">
+								<p class="new-products__text">Lorem ipsum dolor</p>
+								<div class="new-products__price">
+									<span class="new-products__price--old"><s>$100</s></span>
+									<span class="new-products__price--new">$90</span>
+								</div>
+								<div class="new-products__icon">
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+								</div>
+							</div>
+							<div>
+								<img src="img/new-products_2.png" alt="new-products_2">
+								<p class="new-products__text">Lorem ipsum dolor</p>
+								<div class="new-products__price">
+									<span class="new-products__price--old"><s>$100</s></span>
+									<span class="new-products__price--new">$90</span>
+								</div>
+								<div class="new-products__icon">
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+								</div>
+							</div>
+							<div>
+								<img src="img/new-products_3.png" alt="new-products_3">
+								<p class="new-products__text">Lorem ipsum dolor</p>
+								<div class="new-products__price">
+									<span class="new-products__price--old"><s>$100</s></span>
+									<span class="new-products__price--new">$90</span>
+								</div>
+								<div class="new-products__icon">
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+								</div>
+							</div>
+							<div>
+								<img src="img/new-products_4.png" alt="new-products_4">
+								<p class="new-products__text">Lorem ipsum dolor</p>
+								<div class="new-products__price">
+									<span class="new-products__price--old"><s>$100</s></span>
+									<span class="new-products__price--new">$90</span>
+								</div>
+								<div class="new-products__icon">
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="newsletter main-section__wrap">
+						<h2>newsletter</h2>
+						<hr>
+						<div class="newsletter__wrap">
+							<p class="newsletter__text">Sign Up for Our Newsletter!</p>
+							<form action="#">
+								<input type="email" class="newsletter__input" />
+								<button class="newsletter__button">Subscribe</button>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-9">
+					<div class="row">
+						<div class="col">
+							<div class="fashion-block">
+								<div class="fashion-block__image">
+									<img src="img/fashion-block__image-1.png" alt="fashion-block__image-1">
+								</div>
+								<div class="fashion-block__text">
+									<span class="fashion-block__text-year">2016</span>
+									<p class="fashion-block__text-descr">Fashion Sale</p>
+									<a href="#" class="fashion-block__text-link">Buy now</a>
+									<p class="fashion-block__text-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, deserunt.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col">
+							<div class="fashion-block">
+								<div class="fashion-block__image">
+									<img src="img/fashion-block__image-2.png" alt="fashion-block__image-2">
+								</div>
+								<div class="fashion-block__text">
+									<span class="fashion-block__text-year">2016</span>
+									<p class="fashion-block__text-descr">Fashion Sale</p>
+									<a href="#" class="fashion-block__text-link">Buy now</a>
+									<p class="fashion-block__text-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, deserunt.</p>	
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="main-section__wrap">
+						<h2>Hot deals</h2>
+						<hr>
+						<div class="hot-deals">
+							<div>
+								<img src="img/hot-deals_1.jpg" alt="hot-deals_1">
+								<p class="hot-deals__text">Lorem ipsum dolor</p>
+								<div class="hot-deals__price">
+									<span class="hot-deals__price--old"><s>$100</s></span>
+									<span class="hot-deals__price--new">$90</span>
+								</div>
+								<div class="hot-deals__icon">
+									<i class="hot-deals__icon--full icon-star-empty"></i>
+									<i class="hot-deals__icon--full icon-star-empty"></i>
+									<i class="hot-deals__icon--full icon-star-empty"></i>
+									<i class="hot-deals__icon--full icon-star-empty"></i>
+									<i class="hot-deals__icon--full icon-star-empty"></i>
+								</div>
+							</div>
+							<div>
+								<img src="img/hot-deals_2.jpg" alt="hot-deals_2">
+								<p class="hot-deals__text">Lorem ipsum dolor</p>
+								<div class="hot-deals__price">
+									<span class="hot-deals__price--old"><s>$200</s></span>
+									<span class="hot-deals__price--new">$170</span>
+								</div>
+								<div class="hot-deals__icon">
+									<i class="hot-deals__icon--full icon-star-empty"></i>
+									<i class="hot-deals__icon--full icon-star-empty"></i>
+									<i class="hot-deals__icon--full icon-star-empty"></i>
+									<i class="hot-deals__icon--full icon-star-empty"></i>
+									<i class="hot-deals__icon--full icon-star-empty"></i>
+								</div>
+							</div>
+							<div>
+								<img src="img/hot-deals_3.jpg" alt="hot-deals_3">
+								<p class="hot-deals__text">Lorem ipsum dolor</p>
+								<div class="hot-deals__price">
+									<span class="hot-deals__price--old"><s>$150</s></span>
+									<span class="hot-deals__price--new">$75</span>
+								</div>
+								<div class="hot-deals__icon">
+									<i class="hot-deals__icon--full icon-star-empty"></i>
+									<i class="hot-deals__icon--full icon-star-empty"></i>
+									<i class="hot-deals__icon--full icon-star-empty"></i>
+									<i class="hot-deals__icon--full icon-star-empty"></i>
+									<i class="hot-deals__icon--full icon-star-empty"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-9">
+					<div class="main-section__wrap">
+						<h2>New Products</h2>
+						<hr>
+						<div class="new-products">
+							<div>
+								<img src="img/new-products_1.png" alt="new-products_1">
+								<p class="new-products__text">Lorem ipsum dolor</p>
+								<div class="new-products__price">
+									<span class="new-products__price--old"><s>$100</s></span>
+									<span class="new-products__price--new">$90</span>
+								</div>
+								<div class="new-products__icon">
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+								</div>
+							</div>
+							<div>
+								<img src="img/new-products_2.png" alt="new-products_2">
+								<p class="new-products__text">Lorem ipsum dolor</p>
+								<div class="new-products__price">
+									<span class="new-products__price--old"><s>$100</s></span>
+									<span class="new-products__price--new">$90</span>
+								</div>
+								<div class="new-products__icon">
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+								</div>
+							</div>
+							<div>
+								<img src="img/new-products_3.png" alt="new-products_3">
+								<p class="new-products__text">Lorem ipsum dolor</p>
+								<div class="new-products__price">
+									<span class="new-products__price--old"><s>$100</s></span>
+									<span class="new-products__price--new">$90</span>
+								</div>
+								<div class="new-products__icon">
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+								</div>
+							</div>
+							<div>
+								<img src="img/new-products_4.png" alt="new-products_4">
+								<p class="new-products__text">Lorem ipsum dolor</p>
+								<div class="new-products__price">
+									<span class="new-products__price--old"><s>$100</s></span>
+									<span class="new-products__price--new">$90</span>
+								</div>
+								<div class="new-products__icon">
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+								</div>
+							</div>
+							<div>
+								<img src="img/new-products_1.png" alt="new-products_1">
+								<p class="new-products__text">Lorem ipsum dolor</p>
+								<div class="new-products__price">
+									<span class="new-products__price--old"><s>$100</s></span>
+									<span class="new-products__price--new">$90</span>
+								</div>
+								<div class="new-products__icon">
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+								</div>
+							</div>
+							<div>
+								<img src="img/new-products_2.png" alt="new-products_2">
+								<p class="new-products__text">Lorem ipsum dolor</p>
+								<div class="new-products__price">
+									<span class="new-products__price--old"><s>$100</s></span>
+									<span class="new-products__price--new">$90</span>
+								</div>
+								<div class="new-products__icon">
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+								</div>
+							</div>
+							<div>
+								<img src="img/new-products_3.png" alt="new-products_3">
+								<p class="new-products__text">Lorem ipsum dolor</p>
+								<div class="new-products__price">
+									<span class="new-products__price--old"><s>$100</s></span>
+									<span class="new-products__price--new">$90</span>
+								</div>
+								<div class="new-products__icon">
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+								</div>
+							</div>
+							<div>
+								<img src="img/new-products_4.png" alt="new-products_4">
+								<p class="new-products__text">Lorem ipsum dolor</p>
+								<div class="new-products__price">
+									<span class="new-products__price--old"><s>$100</s></span>
+									<span class="new-products__price--new">$90</span>
+								</div>
+								<div class="new-products__icon">
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+									<i class="new-products__icon--full icon-star-empty"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<!--Jquery v.3.3.1 -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<!-- Slick slider JS -->
+	<script src="access/slick-1.8.1/slick/slick.min.js"></script>
+	<!-- Main JS -->
+	<script src="js/main.js"></script>
+</body>
+</html>
